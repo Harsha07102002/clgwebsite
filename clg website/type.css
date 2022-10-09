@@ -1,0 +1,83 @@
+
+  #b{
+    height:45px;
+    width: 45px;
+}
+nav li{
+    display: inline;
+    padding: 72px;
+}
+#v,#w,#x,#y,#z,#l,#r{
+    height:30px;
+    width: 100px;
+    background-color: transparent;
+    border-color: transparent;
+}
+#v:hover{
+    color: red;
+    font-weight: bolder;
+}
+#w:hover{
+    color: red;
+    font-weight: bolder;
+}
+#x:hover{
+    color: red;
+    font-weight: bolder;
+}
+#y:hover{
+    color: red;
+    font-weight: bolder;
+}
+#z:hover{
+    color: red;
+    font-weight: bolder;
+}
+#l:hover{
+    color: red;
+    font-weight: bolder;
+}
+#r:hover{
+    color: red;
+    font-weight: bolder;
+}
+#vlc{
+    width:1335px
+}
+.vi{
+    margin-left: 75px;
+    margin-top: -45px;
+    font-size: 25px;
+    color: red;
+}
+.in{
+    margin-left: 75px;
+    margin-top: -25px;
+    font-size: 15px;
+}
+#rl{
+    margin-top: -40px;
+    margin-left: 1125px;
+}
+.Ab:hover{
+    color: white;
+    background-color: brown;
+}
+.bran{
+    box-shadow: 8px 8px 6px 6px rgb(99, 155, 27);
+    border-radius: 10px;
+    color: rgb(99, 155, 27);
+}
+.fac{
+    box-shadow: 6px 6px 6px 6px rgb(33, 33, 90);
+    border-radius: 10px;
+    color: rgb(33, 33, 90);
+}
+#stud{
+    box-shadow: 6px 6px 6px 6px rgb(28, 109, 89);
+    border-radius: 10px;
+    color: rgb(28, 109, 89);
+}
+
+
+

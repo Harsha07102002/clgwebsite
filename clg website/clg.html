@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="John Doe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vignan University</title>
+        <link rel="icon" type="image/x-icon" href="favi.jpg">
+        <link href="type.css" rel="stylesheet">
+        <script type="text/javascript" src="bro.js"></script>
+    </head>
+    <body>
+        <section>
+            <div id="far">
+                <img src="vig.png" id="b">
+                <big><p class="vi">VIGNAN'S</p></big>
+                <p class="in">INSTIUTE OF INFORMATION TECHNOLOGY</p>
+                <p id="rl">
+                    <a href="log.html" target="1"><button id="l"></button></a><a href="reg.html" target="2"><button id="r">Sign Up/Log in</button></a>
+                </p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about"><button id="z">About VIIT</button></a></li>
+                    <li><a href="#depart"><button id="y">Branches</button></a></li>
+                    <li><a href="#facul"><button id="x">Faculty</button></a></li>
+                    <li><a href="#stud"><button id="w">Students</button></a></li>
+                    <li><a href="#bran"><button id="v">Training&Placements</button></a></li>
+                </ul>
+            </nav>
+            <img src="vigclg.jpg" id="vlc">
+        </section>
+        <section  class="Ab" title="about viit">
+            <div id="about">
+            <center><h1 style="font-weight: bold;"><big>About VIIT</big></h1></center>
+            <p><font size="4">Vishwakarma Institute ofInformation Technology (VIIT) was established in 2002 by Bansilal Ramnath Agarwal Charitable Trust (BRACT),
+            Pune, Maharashtra,in order to produce engineering graduates capable of accepting challenges in the new environment of technical 
+            advancements. It was formally inaugurated by Dr.Anil Kakodkar, Chairman, Atomic Energy Commission, Governmentof India, on 11th October 
+            2002. During past sixteen years VIIT has developed into an institute recognized amongst few top ranking engineering colleges in Pune, 
+            Maharashtra, India and is certified as ISO 9001:2015 certified institute. It is a self-financed Autonomous Institute of Govt. of 
+            Maharashtra, affiliated to Savitribai Phule Pune University (SPPU) formerly known as University of Pune 
+            (Identification No. PU/PN/Engg./184/ 2002-2003) and is recognized and approved by All India Council for Technical Education (AICTE), 
+            New Delhi and by the Government of Maharashtra. As a result, the institute established a strong foothold in engineering education. VIIT has
+            obtained ISO certification in 2006 and re-certification in 2009, 2012 and 2015. All  UG programs are Accredited by NBA till 2021.
+            </font></p>
+            </div>
+        </section>
+        <section class="bran" id="depart">
+            <center><h1 style="font-weight: bold;"><big>Branches in VIIT</big></h1></center>
+            <table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+                    <tr>
+                        <td>
+                        <div class="box" id="java">
+                            <img src="cse.jpg" alt="no image" width="200px" height="200px" title="computer science engineering">
+                            <p><a href="https://en.wikipedia.org/wiki/Computer_science_and_engineering" target="10"><button>CSE Department</button></a></p>
+                        </div>
+                        </td>
+                        <td>
+                            <div class="box" id="js">
+                                <img src="ece.jpg" alt="no image" width="200px" height="200px" title="electronics communication engineering">
+                                <p><a href="https://www.sarvgyan.com/courses/engineering/electronics-communication-engineering#:~:text=Electronics%20and%20Communication%20Engineering%20(ECE,knowledge%20of%20the%20electronics%20field." target="9"><button>ECE Department</button></a></p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="box" id="mysql">
+                                <img src="civil.jpg" alt="no image" width="200px" height="200px" title="civil engineering">
+                                <p><a href="https://en.wikipedia.org/wiki/Civil_engineering" target="8"><button>CIVIL Department</button></a></p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="box" id="css">
+                                <img src="mech.jpg" alt="no image" width="200px" height="200px" title="mechanical engineering">
+                                <p><a href="https://en.wikipedia.org/wiki/Mechanical_engineering" target="5"><button>Mech Department</button></a></p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="box" id="html">
+                                <img src="eee.jpg" alt="no image" width="200px" height="200px" title="electrical electronics engineering">
+                                <p><a href="https://en.wikipedia.org/wiki/Electrical_engineering" target="7"><button>EEE Department</button></a></p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="box" id="html">
+                                <img src="it.png" alt="no image" width="200px" height="200px" title="information technology">
+                                <p><a href="https://en.wikipedia.org/wiki/Information_technology" target="6"><button>IT Department</button></a></p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+        </section>
+        <section class="fac" id="facul">
+                <center><h1 style="font-weight: bold;"><big>Faculty Details</big></h1></center>    
+                <p style="font-weight: bold;">Select Department:</p>
+                <table cellspacing="20px">
+                    <tr>
+                        <td><button onclick="mass(0)">CSE</button></td>
+                        <td><button onclick="mass(1)">IT</button></td>
+                        <td><button onclick="mass(2)">CIVIL</button></td>
+                        <td><button onclick="mass(3)">MECH</button></td>
+                        <td><button onclick="mass(4)">ECE</button></td>
+                        <td><button onclick="mass(5)">EEE</button></td>
+                    </tr>
+                </table>
+                <table cellspacing="20px" styel="tr{font-weight:bolder}">
+                    <tr>
+                        <td><p>Department:</p></td>
+                        <td><p id="d">CSE</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Total Number of Faculty:</p></td>
+                        <td><p id="n">40</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Teaching:</p></td>
+                        <td><p id="t">32</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Non Teaching:</p></td>
+                        <td><p id="nt">08</p></td>
+                    </tr>
+                </table>
+        </section>
+       <section id="stud">
+        <center><h1 style="font-weight: bold;"><big>Student Details</big></h1></center> 
+        <p style="font-weight: bold;">Select Department:</p>
+                <table cellspacing="20px">
+                    <tr>
+                        <td><button onclick="jass(0)">CSE</button></td>
+                        <td><button onclick="jass(1)">IT</button></td>
+                        <td><button onclick="jass(2)">CIVIL</button></td>
+                        <td><button onclick="jass(3)">MECH</button></td>
+                        <td><button onclick="jass(4)">ECE</button></td>
+                        <td><button onclick="jass(5)">EEE</button></td>
+                    </tr>
+                </table>
+                <table cellspacing="20px" styel="tr{font-weight:bolder}">
+                    <tr>
+                        <td><p>Sections</p></td>
+                        <td><p>Total No of Students</p></td>
+                    </tr>
+                    <tr>
+                        <td><p id="s1">Section 1</p></td>
+                        <td><p id="ss1">68</p></td>
+                    </tr>
+                    <tr>
+                        <td><p id="s2">Section 2</p></td>
+                        <td><p id="ss2">72</p></td>
+                    </tr>
+                    <tr>
+                        <td><p id="s3">Section 3</p></td>
+                        <td><p id="ss3">70</p></td>
+                    </tr>
+                    <tr>
+                        <td><p id="s4">Section 4</p></td>
+                        <td><p id="ss4">69</p></td>
+                    </tr>
+                </table>
+       </section>
+    </body>
+</html>
